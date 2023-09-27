@@ -1,0 +1,248 @@
+:root {
+  --cor-primaria: #0d2137 !important;
+  --cor-secundaria: #f7f7f7;
+  --cor-terciaria: #0d2137;
+  --cor-complementar: darkgray;
+}
+
+.navbar-expand-lg.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: var(--cor-primaria);
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}
+
+a:hover {
+  color: var(--cor-primaria);
+}
+
+.link-keven:hover {
+  color: var(--dark);
+}
+
+/* CSS Personalizado  */
+
+.line-height-n1 {
+  line-height: 0.9 !important;
+}
+
+.line-height-n2 {
+  line-height: 0.8 !important;
+}
+
+.line-height-1 {
+  line-height: 1 !important;
+}
+
+.btn-outline-primary {
+  color: var(--cor-primaria) !important;
+  border-color: var(--cor-primaria) !important;
+}
+
+.text-terciario {
+  color: var(--cor-terciaria) !important;
+}
+
+.bg-terciario {
+  background-color: var(--cor-terciaria);
+}
+
+.bg-gradient-feitos-infra {
+  background: linear-gradient(to right, #f9e000 0%, #f9e000 30%, #f9e000 100%) !important;
+}
+
+.bg-gradient-feitos-social {
+  background: linear-gradient(to right, #ff24bc 0%, #ff24bc 30%, #ff24bc 100%) !important;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #1e0b7a 0%, #1e0b7a 30%, #1e0b7a 100%) !important;
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(to right, #002840 0%, #005284 30%, #45acec 100%) !important;
+}
+
+/* .galeria-home .cs-gallery-item>img{
+    height: 200px;
+} */
+
+.feitos-single img,
+figure {
+  max-height: 370px;
+}
+
+.cs-page-loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s 0.2s ease-in-out;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.cs-page-loading.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cs-page-loading-inner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.cs-page-loading.active > .cs-page-loading-inner {
+  opacity: 1;
+}
+
+.cs-page-loading-inner > span {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #737491;
+}
+
+.cs-page-spinner {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-bottom: 0.75rem;
+  vertical-align: text-bottom;
+  border: 0.15em solid var(--cor-primaria);
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner 0.75s linear infinite;
+  animation: spinner 0.75s linear infinite;
+}
+
+.header-sugestoes {
+  margin-top: -45px;
+}
+
+@-webkit-keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.noticias a {
+  font-size: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 28px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 3px #999; */
+  z-index: 100;
+  transition: 0.5s ease-in-out;
+}
+
+.float:hover {
+  background-color: #25d366;
+  color: #fff !important;
+}
+
+.my-float {
+  margin-top: 15px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .dropdown-mega .dropdown-column {
+    width: 20rem;
+    min-width: 20rem;
+    padding: 3.5rem 0.75rem;
+  }
+
+  #videos .cs-gallery-item > img {
+    transform: translateY(-22px);
+  }
+
+  #videos .cs-gallery-item {
+    height: 132px;
+  }
+
+  .banner-inicial .cs-carousel .tns-nav {
+    top: 90% !important;
+    z-index: 99;
+  }
+}
+
+@media (max-width: 768px) {
+  .cs-carousel .tns-nav {
+    top: 68% !important;
+    z-index: 1000;
+  }
+
+  .compartilhe-conteudo button {
+    width: 100% !important;
+    margin-bottom: 29px;
+  }
+
+  h1,
+  .h1 {
+    font-size: 1.625rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 1.375rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 1.125rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 1.125rem;
+  }
+
+  .line-height-n1 {
+    line-height: 1 !important;
+  }
+
+  .line-height-n2 {
+    line-height: 1 !important;
+  }
+
+  .line-height-1 {
+    line-height: 1 !important;
+  }
+}
+

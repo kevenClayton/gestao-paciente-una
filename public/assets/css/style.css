@@ -1,0 +1,21 @@
+.dz-width{
+    width: 10px;
+    height: 2px;
+    background-color: blueviolet;
+}
+.btn-sidebar-ocult {
+    padding: 0.02rem 0.3rem !important;
+    border-radius: 50% !important;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+    right: -12px;
+    top: 80px;
+    font-size: 1.2rem;
+    color: #313a46;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+.badge-accent{
+    color: #fff;
+    background-color: #4e54c8;
+}
